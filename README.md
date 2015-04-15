@@ -36,9 +36,9 @@ Usage: toggl-project-task-report.py [options]
 Options:
   -h, --help            show this help message and exit
   -s START_DATE, --start_date=START_DATE
-                        Day from which to start normalizing (inclusive) [default: last monday]
+                        Day from which to start reporting (inclusive) [default: last monday]
   -e END_DATE, --end_date=END_DATE
-                        Day at which to stop normalizing (inclusive) [default: next friday]
+                        Day at which to stop reporting (inclusive) [default: next friday]
   -f CSV_FILE, --csv_file=CSV_FILE
                         Filename for the csv report [default: "project-task-report.csv"]
 ```

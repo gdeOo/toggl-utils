@@ -66,9 +66,9 @@ def options():
   except AttributeError:
     parser = common.get_option_parser()
     parser.add_option("-s", "--start_date", type="date", default=common.last_monday(),
-                      help="Day from which to start normalizing (inclusive) [default: last monday]")
+                      help="Day from which to start reporting (inclusive) [default: last monday]")
     parser.add_option("-e", "--end_date", type="date", default=common.next_friday(),
-                      help="Day at which to stop normalizing (inclusive) [default: next friday]")
+                      help="Day at which to stop reporting (inclusive) [default: next friday]")
     parser.add_option("-f", "--csv_file", type="string", default="project-task-report.csv",
                       help="Filename for the csv report [default: \"project-task-report.csv\"]")
     opts, args = parser.parse_args()
