@@ -108,7 +108,7 @@ def main():
     print ""
     print "Done."
 
-  except:
+  except Exception:
     print ""
     print "Error:"
     raise

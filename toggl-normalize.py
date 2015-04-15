@@ -158,9 +158,9 @@ def main():
     print ""
     print "Done."
 
-  except:
+  except Exception, e:
     print ""
-    print "Error:"
+    print "Error:", e
     raise
 
 
