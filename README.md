@@ -1,6 +1,12 @@
 # toggl-utils
 A collection of command line utilities that extend [toggl](https://www.toggl.com/) functionality through the toggl API.
 
+## Installation
+
+Create a `toggle.config` file using `toggle.config-example` as a template. Edit it and change, at the very least, the `api_token` setting.
+
+The python dependencies of the utilities may be installed by running `pip install -r requirements.txt`.
+
 ## toggl normalize
 
 `toggl-normalize.py` normalizes the entries of one or more days, so that the tracked time per day is fixed.
