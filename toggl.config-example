@@ -1,0 +1,7 @@
+[auth]
+# get your api token from toggl's 'My Profile' page
+api_token = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+[settings]
+# must be a valid pytz timezone name
+timezone = UTC
